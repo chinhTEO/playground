@@ -69,7 +69,8 @@ h1 {
 
 .controls {
   margin-top: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   width: min(520px, 100%);
 }
