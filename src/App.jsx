@@ -26,18 +26,18 @@ function App() {
       </section>
 
       <div className="controls" aria-label="Counter controls">
+        <button className="control-button" onClick={decrement} aria-label="Decrease value by one">
+          -1
+        </button>
+        <button className="control-button" onClick={increment} aria-label="Increase value by one">
+          +1
+        </button>
         <button
           className="control-button"
           onClick={decrementByTen}
           aria-label="Decrease value by ten"
         >
           -10
-        </button>
-        <button className="control-button" onClick={decrement} aria-label="Decrease value by one">
-          -1
-        </button>
-        <button className="control-button" onClick={increment} aria-label="Increase value by one">
-          +1
         </button>
         <button
           className="control-button"
